@@ -1,0 +1,97 @@
+.Flex {
+  margin-top: 50px;
+  display: flex;
+  justify-content: safe;
+  width: 100%;
+}
+
+.shopSideBar {
+  padding: 20px;
+  width: 25%;
+  height: 100vh;
+  border-right: 2px solid rgb(224, 224, 224);
+}
+
+.shopMain {
+  overflow-y: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+.topSaleHeader {
+  padding: 20px;
+
+}
+
+.entrySale {
+  padding: 20px;
+  /* border: 2px solid; */
+  height: 400px;
+  margin-bottom: 20px;
+}
+.commandSale{
+  height: auto;
+  /* border: 2px solid; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  /* Equivalent to Bootstrap's `mb-3` */
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  /* Bootstrap's default input border-radius */
+  overflow: hidden;
+}
+
+.inputGroupText {
+  padding: 0.375rem 0.75rem;
+  background-color: #e9ecef;
+  border-right: 1px solid #ced4da;
+  color: #495057;
+  font-size: 1rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.inputGroupInput {
+  flex-grow: 1;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.inputGroupInput:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.entry {
+  margin-bottom: 25px;
+}
+
+.entrybutton {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.labelBox{
+  font-size: small;
+  margin-bottom: 10px;
+  display: block;
+}

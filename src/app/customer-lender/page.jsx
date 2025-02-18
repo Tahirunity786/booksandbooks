@@ -13,7 +13,7 @@ const Page = () => {
     { name: "Date" },
     { name: "Name" },
     { name: "Cell" },
-    { name: "Commission(%)" },
+    { name: "Closing Balance(Rs)" },
     { name: "Detail" },
     { name: "Edit" },
     { name: "Delete" },
@@ -40,7 +40,7 @@ const Page = () => {
         </div>
         <div className={`col-lg-2`}>
 
-          <button className={styles.button} onClick={() => { router.push('/products/existing-stock') }}>Add School</button>
+          <button className={styles.button} onClick={() => { router.push('/products/existing-stock') }}>Add Creditor</button>
 
         </div>
       </div>

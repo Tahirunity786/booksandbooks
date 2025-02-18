@@ -46,7 +46,7 @@ const Page = () => {
     { name: "Discount %", type: "text", disable: true, id: "Discount%" },
     { name: "Cash Received", type: "number", id: "CashRec" },
     { name: "Cash Return", type: "number", id: "CashR" },
-    { name: "S.Tax(0%)", type: "number",disable: true, id: "S.Tax" },
+    { name: "S.Tax(0%)", type: "number", disable: true, id: "S.Tax" },
     // { name: "Method", type: "number", disable: true },
   ]
   const intailInput = [
@@ -54,7 +54,7 @@ const Page = () => {
     { name: "Customer Name", type: "text", id: "Name" },
     { name: "Customer Phone", type: "number", id: "Customer" },
     { name: "Refund ID", type: "text", id: "Refund" },
-    
+
   ]
 
 
@@ -82,7 +82,7 @@ const Page = () => {
         </div>
         <div className={styles.shopMain}>
           <div className={styles.topSaleHeader}>
-            <div className={styles.commandSale} style={{marginTop:"0px", padding:"10px"}}>
+            <div className={styles.commandSale} style={{ marginTop: "0px", padding: "10px" }}>
               {intailInput.map((item, index) => (
                 <div key={index}>
                   <label htmlFor={item.id} className={styles.labelBox}>{item.name}</label>

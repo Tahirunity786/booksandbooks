@@ -1,6 +1,12 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --sidebar-width-variation:250px;
 }
 
 @media (prefers-color-scheme: dark) {

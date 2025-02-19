@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 const Page = () => {
 
   const router = useRouter();
-
+  
   const header = [
     { name: "Date" },
     { name: "Name" },
@@ -24,8 +24,6 @@ const Page = () => {
     ["1", "Product A", "$100", "Pending", "Pending", "Pending", "Pending"],
     ["2", "Product A", "$100", "Pending", "Pending", "Pending", "Pending"],
     ["3", "Product A", "$100", "Pending", "Pending", "Pending", "Pending"],
-   
-
   ];
 
   return (
